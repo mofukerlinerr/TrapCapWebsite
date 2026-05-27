@@ -59,11 +59,18 @@ nav {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.65rem 0.95rem;
+  border-radius: 1rem;
   font-family: 'Instrument Serif', serif;
-  font-size: 1.75rem;
+  font-size: 2rem;
   letter-spacing: -0.03em;
   color: var(--text);
   text-decoration: none;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 10px 25px rgba(31, 27, 22, 0.08);
 }
 
 .logo span {

@@ -4,9 +4,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="refresh" content="0; url=TrapCap.html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Redirecting to TrapCap NZ website." />
   <title>TrapCap NZ</title>
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, #1a3f5a 0%, #264a6b 100%);
+      color: #f4f7fb;
+      font-family: 'Outfit', system-ui, sans-serif;
+      text-align: center;
+    }
+    .redirect-card {
+      max-width: 420px;
+      padding: 2rem;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.08);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(14px);
+    }
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      letter-spacing: -0.03em;
+    }
+    p {
+      margin: 0 0 1.5rem;
+      line-height: 1.7;
+      color: #d9e4f1;
+    }
+    a {
+      display: inline-block;
+      padding: 0.9rem 1.6rem;
+      color: #1a3f5a;
+      background: #f4f7fb;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    a:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 30px rgba(255, 255, 255, 0.22);
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to <a href="TrapCap.html">TrapCap</a>...</p>
+  <div class="redirect-card">
+    <h1>Redirecting to TrapCap</h1>
+    <p>Please wait while we take you to the TrapCap NZ website. If the redirect does not happen automatically, click the button below.</p>
+    <a href="TrapCap.html">Continue to TrapCap</a>
+  </div>
 </body>
 </html>
